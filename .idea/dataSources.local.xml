@@ -8,7 +8,7 @@
       </database-info>
       <case-sensitivity plain-identifiers="mixed" quoted-identifiers="upper" />
       <user-name>root</user-name>
-      <introspection-schemas>*:information_schema</introspection-schemas>
+      <introspection-schemas>*:information_schema,voting_system</introspection-schemas>
     </data-source>
   </component>
 </project>

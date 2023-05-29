@@ -54,7 +54,7 @@
     </style>
 </head>
 <body>
-<form>
+<form action="/signin" method="post">
     <h2>Welcome Back!</h2>
     <label for="idnumber">ID Number:</label>
     <input type="text" id="idnumber" name="idnumber" required><br>

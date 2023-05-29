@@ -61,6 +61,9 @@
     <label for="idnumber">ID Number:</label>
     <input type="text" id="idnumber" name="idnumber" required><br>
 
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email">
+
     <label for="password">Password:</label>
     <input type="text" id="password" name="password" required><br>
 

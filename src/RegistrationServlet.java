@@ -15,20 +15,22 @@ public class RegistrationServlet extends HttpServlet {
         String name = request.getParameter("name");
         String surname = request.getParameter("surname");
         String ID = request.getParameter("idnumber");
+        String email = request.getParameter("email");
         String password = request.getParameter("password");
 
-        String URL = "jdbc:mysql://localhost:3306";
+        String URL = "jdbc:mysql://localhost:3306/voting_system";
         String username = "root";
         String DBpassword = "newpass";
 
         try (Connection connection = DriverManager.getConnection(URL,username,DBpassword))
         {
-            String sql = "INSERT INTO users (name, surname, ID, password) VALUES (?,?,?,?)";
+            String sql = "INSERT INTO voting_system.users (first_name, last_name, id, email,password) VALUES (?,?,?,?,?)";
             PreparedStatement statement = connection.prepareStatement(sql);
             statement.setString(1, name);
             statement.setString(2, surname);
-            statement.setString(3, ID);
-            statement.setString(4, password);
+            statement.setString(3, email);
+            statement.setString(4, ID);
+            statement.setString(5, password);
             statement.executeUpdate();
 
         } catch (SQLException e)
@@ -36,9 +38,10 @@ public class RegistrationServlet extends HttpServlet {
             e.printStackTrace();
         }
 
+        response.sendRedirect("home.jsp");
+
+        //
+
     }
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
-    }
 }
