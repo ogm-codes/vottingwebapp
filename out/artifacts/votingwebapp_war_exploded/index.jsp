@@ -1,20 +1,42 @@
 <%--
-  Created by IntelliJ IDEA.
+  Created with IntelliJ IDEA.
   User: rati
-  Date: 2023/05/28
-  Time: 9:35 PM
-  To change this template use File | Settings | File Templates.
+
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
     <title>Welcome</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+      <link rel="stylesheet" href="style.css">
   </head>
   <body>
-  <header></header>
+  <header>
+      <nav class="navbar">
+          <div>
+              <a href="#hero-page" class="logo"></a>
+              <ul class="nav-menu">
+                  <li><a href="#hero-page"></a></li>
+                  <li><a href="#about-us"></a></li>
+                  <li><a href="#services"></a></li>
+                  <li><a href="#footer-page"></a></li>
+              </ul>
+          </div>
+      </nav>
+  </header>
   <section id="hero-page"></section>
-  <section id="about-us"></section>
+  <section id="about-us">
+      <div class="container">
+          <div class="about-content">
+              <h2>About us</h2>
+              <p>We believe that everyone's voice matters.
+                  That's why we created a voting system that is easy to use, secure,
+                  and accessible to everyone. Our system is designed to make voting more
+                  convenient and accessible,
+                  so that everyone can have a say in the decisions that affect their lives</p>
+          </div>
+      </div>
+  </section>
   <section id="services">
     <div class="container">
       <div class="service-card">
