@@ -12,19 +12,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
   </head>
   <body>
-  <header>
-      <nav class="navbar">
-          <div>
-              <a href="#hero-page" class="logo"></a>
-              <ul class="nav-menu">
-                  <li><a href="#hero-page"></a></li>
-                  <li><a href="#about-us"></a></li>
-                  <li><a href="#services"></a></li>
-                  <li><a href="#footer-page"></a></li>
-              </ul>
-          </div>
-      </nav>
-  </header>
+  <header></header>
   <section id="hero-page"></section>
   <section id="about-us"></section>
   <section id="services">
