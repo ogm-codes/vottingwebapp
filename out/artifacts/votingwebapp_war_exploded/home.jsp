@@ -35,6 +35,10 @@
             border-radius: 3px;
             cursor: pointer;
         }
+
+        .card button:hover {
+            background-color: #555;
+        }
     </style>
 </head>
 <body>
