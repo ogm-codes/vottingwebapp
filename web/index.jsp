@@ -29,6 +29,7 @@
           <div class="hero-content">
               <h1>Vote change</h1>
               <p>lorem ipsum</p>
+             <!-- <img src="ballot_box.jpeg" alt="ballot-box"> -->
               <button id="vote-button">Vote!</button>
           </div>
       </div>
@@ -42,6 +43,7 @@
                   and accessible to everyone. Our system is designed to make voting more
                   convenient and accessible,
                   so that everyone can have a say in the decisions that affect their lives</p>
+              <img src="voting_box.jpg">
           </div>
       </div>
   </section>

@@ -50,17 +50,17 @@
       <file leaf-file-name="signin.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/signin.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
+            <state relative-caret-position="-210">
               <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="register.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/register.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
+            <state relative-caret-position="550">
               <caret line="64" column="43" lean-forward="false" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
               <folding />
             </state>
@@ -70,55 +70,12 @@
       <file leaf-file-name="RegistrationServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RegistrationServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="29" column="38" lean-forward="false" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+            <state relative-caret-position="117">
+              <caret line="11" column="66" lean-forward="false" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1685459337000" expanded="true" signature="1226:1309" ph="INSERT INTO voting_system.users... " />
+                <marker date="1685474954000" expanded="true" signature="1253:1336" ph="INSERT INTO voting_system.users... " />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/home.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="59" column="9" lean-forward="false" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
-              <folding>
-                <element signature="e#438#581#0#HTML" expanded="false" />
-                <element signature="e#800#933#0#HTML" expanded="false" />
-                <element signature="e#1096#1139#0#HTML" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="users" pinned="false" current-in-tab="false">
-        <entry file="das://table:/e71acb1d/1512f49f-686a-48b3-bff1-821ac0d69f86/voting_system.users">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="24" selection-end-column="12" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -126,35 +83,10 @@
       <file leaf-file-name="SignInServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SignInServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="105">
+              <caret line="7" column="58" lean-forward="false" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="12" column="7" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="50" selection-end-column="1" />
-              <folding>
-                <element signature="e#1#63#0" expanded="false" />
-                <element signature="e#70#125#0" expanded="false" />
-                <element signature="e#148#251#0" expanded="false" />
-                <element signature="e#406#499#0" expanded="false" />
-                <element signature="e#606#633#0" expanded="false" />
-                <element signature="e#766#920#0" expanded="false" />
-                <element signature="e#936#985#0" expanded="false" />
-                <element signature="e#1000#1049#0" expanded="false" />
-                <element signature="e#1069#1201#0" expanded="false" />
-                <element signature="e#1235#1269#0" expanded="false" />
-                <element signature="e#1292#1378#0" expanded="false" />
-                <element signature="e#1394#1535#0" expanded="false" />
-                <element signature="e#1571#1622#0" expanded="false" />
-                <element signature="e#1642#1787#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -184,13 +116,13 @@
         <option value="$PROJECT_DIR$/src/registrationservlet.java" />
         <option value="src:table:/e71acb1d/1512f49f-686a-48b3-bff1-821ac0d69f86/voting_system.users" />
         <option value="$PROJECT_DIR$/web/signin.jsp" />
-        <option value="$PROJECT_DIR$/src/SignInServlet.java" />
-        <option value="$PROJECT_DIR$/web/style.css" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/register.jsp" />
-        <option value="$PROJECT_DIR$/src/RegistrationServlet.java" />
         <option value="$PROJECT_DIR$/web/home.jsp" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/style.css" />
+        <option value="$PROJECT_DIR$/src/RegistrationServlet.java" />
+        <option value="$PROJECT_DIR$/src/SignInServlet.java" />
       </list>
     </option>
   </component>
@@ -217,7 +149,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="854" />
     <option name="y" value="23" />
-    <option name="width" value="829" />
+    <option name="width" value="841" />
     <option name="height" value="1023" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -280,6 +212,11 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -292,7 +229,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.home.jsp">
+  <component name="RunManager" selected="Tomcat Server.register.jsp">
     <configuration name="Tomcat 9.0.75" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.75" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
         <artifact name="votingwebapp:war exploded">
@@ -577,9 +514,9 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Tomcat Server.home.jsp" />
-        <item index="1" class="java.lang.String" itemvalue="Tomcat Server.register.jsp" />
-        <item index="2" class="java.lang.String" itemvalue="Tomcat Server.index.jsp" />
+        <item index="0" class="java.lang.String" itemvalue="Tomcat Server.register.jsp" />
+        <item index="1" class="java.lang.String" itemvalue="Tomcat Server.index.jsp" />
+        <item index="2" class="java.lang.String" itemvalue="Tomcat Server.home.jsp" />
         <item index="3" class="java.lang.String" itemvalue="Tomcat Server.signin.jsp" />
       </list>
     </recent_temporary>
@@ -598,12 +535,12 @@
       <workItem from="1685347639833" duration="10819000" />
       <workItem from="1685376404640" duration="6905000" />
       <workItem from="1685436509297" duration="8841000" />
-      <workItem from="1685458732728" duration="2492000" />
+      <workItem from="1685458732728" duration="10588000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31338000" />
+    <option name="totallyTimeSpent" value="39434000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -615,7 +552,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="854" y="23" width="829" height="1023" extended-state="0" />
+    <frame x="854" y="23" width="841" height="1023" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -633,7 +570,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.4952153" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4205845" sideWeight="0.4437299" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3379224" sideWeight="0.4437299" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4205845" sideWeight="0.5562701" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1007326" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48923445" sideWeight="0.488746" order="1" side_tool="false" content_ui="tabs" />
@@ -689,7 +626,7 @@
           <caret line="35" column="40" lean-forward="false" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1685459337000" expanded="true" signature="1226:1309" ph="INSERT INTO voting_system.users... " />
+            <marker date="1685474954000" expanded="true" signature="1253:1336" ph="INSERT INTO voting_system.users... " />
           </folding>
         </state>
       </provider>
@@ -713,7 +650,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1245">
           <caret line="83" column="11" lean-forward="false" selection-start-line="83" selection-start-column="11" selection-end-line="83" selection-end-column="11" />
-          <folding />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -735,17 +679,26 @@
             <element signature="e#1#63#0" expanded="false" />
             <element signature="e#70#125#0" expanded="false" />
             <element signature="e#148#251#0" expanded="false" />
+            <element signature="e#272#398#0" expanded="false" />
             <element signature="e#406#499#0" expanded="false" />
+            <element signature="e#511#591#0" expanded="false" />
             <element signature="e#606#633#0" expanded="false" />
-            <element signature="e#766#920#0" expanded="false" />
-            <element signature="e#936#985#0" expanded="false" />
-            <element signature="e#1000#1049#0" expanded="false" />
-            <element signature="e#1069#1201#0" expanded="false" />
-            <element signature="e#1235#1269#0" expanded="false" />
-            <element signature="e#1292#1378#0" expanded="false" />
-            <element signature="e#1394#1535#0" expanded="false" />
-            <element signature="e#1571#1622#0" expanded="false" />
-            <element signature="e#1642#1787#0" expanded="false" />
+            <element signature="e#650#737#0" expanded="false" />
+            <element signature="e#766#843#0" expanded="false" />
+            <element signature="e#856#950#0" expanded="false" />
+            <element signature="e#967#992#0" expanded="false" />
+            <element signature="e#997#1046#0" expanded="false" />
+            <element signature="e#1050#1121#0" expanded="false" />
+            <element signature="e#1127#1168#0" expanded="false" />
+            <element signature="e#1197#1459#0" expanded="false" />
+            <element signature="e#1475#1524#0" expanded="false" />
+            <element signature="e#1539#1588#0" expanded="false" />
+            <element signature="e#1608#1740#0" expanded="false" />
+            <element signature="e#1774#1808#0" expanded="false" />
+            <element signature="e#1831#1917#0" expanded="false" />
+            <element signature="e#1933#2074#0" expanded="false" />
+            <element signature="e#2110#2161#0" expanded="false" />
+            <element signature="e#2181#2326#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -772,7 +725,7 @@
           <caret line="28" column="40" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1685459337000" expanded="true" signature="1226:1309" ph="INSERT INTO voting_system.users... " />
+            <marker date="1685474954000" expanded="true" signature="1253:1336" ph="INSERT INTO voting_system.users... " />
           </folding>
         </state>
       </provider>
@@ -799,7 +752,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1170">
           <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -811,17 +771,26 @@
             <element signature="e#1#63#0" expanded="false" />
             <element signature="e#70#125#0" expanded="false" />
             <element signature="e#148#251#0" expanded="false" />
+            <element signature="e#272#398#0" expanded="false" />
             <element signature="e#406#499#0" expanded="false" />
+            <element signature="e#511#591#0" expanded="false" />
             <element signature="e#606#633#0" expanded="false" />
-            <element signature="e#766#920#0" expanded="false" />
-            <element signature="e#936#985#0" expanded="false" />
-            <element signature="e#1000#1049#0" expanded="false" />
-            <element signature="e#1069#1201#0" expanded="false" />
-            <element signature="e#1235#1269#0" expanded="false" />
-            <element signature="e#1292#1378#0" expanded="false" />
-            <element signature="e#1394#1535#0" expanded="false" />
-            <element signature="e#1571#1622#0" expanded="false" />
-            <element signature="e#1642#1787#0" expanded="false" />
+            <element signature="e#650#737#0" expanded="false" />
+            <element signature="e#766#843#0" expanded="false" />
+            <element signature="e#856#950#0" expanded="false" />
+            <element signature="e#967#992#0" expanded="false" />
+            <element signature="e#997#1046#0" expanded="false" />
+            <element signature="e#1050#1121#0" expanded="false" />
+            <element signature="e#1127#1168#0" expanded="false" />
+            <element signature="e#1197#1459#0" expanded="false" />
+            <element signature="e#1475#1524#0" expanded="false" />
+            <element signature="e#1539#1588#0" expanded="false" />
+            <element signature="e#1608#1740#0" expanded="false" />
+            <element signature="e#1774#1808#0" expanded="false" />
+            <element signature="e#1831#1917#0" expanded="false" />
+            <element signature="e#1933#2074#0" expanded="false" />
+            <element signature="e#2110#2161#0" expanded="false" />
+            <element signature="e#2181#2326#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -848,7 +817,7 @@
           <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1685459337000" expanded="true" signature="1226:1309" ph="INSERT INTO voting_system.users... " />
+            <marker date="1685474954000" expanded="true" signature="1253:1336" ph="INSERT INTO voting_system.users... " />
           </folding>
         </state>
       </provider>
@@ -857,7 +826,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1170">
           <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -865,11 +841,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="39" column="35" lean-forward="false" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
-          <folding>
-            <element signature="e#438#581#0#HTML" expanded="false" />
-            <element signature="e#800#933#0#HTML" expanded="false" />
-            <element signature="e#1096#1139#0#HTML" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -881,17 +853,26 @@
             <element signature="e#1#63#0" expanded="false" />
             <element signature="e#70#125#0" expanded="false" />
             <element signature="e#148#251#0" expanded="false" />
+            <element signature="e#272#398#0" expanded="false" />
             <element signature="e#406#499#0" expanded="false" />
+            <element signature="e#511#591#0" expanded="false" />
             <element signature="e#606#633#0" expanded="false" />
-            <element signature="e#766#920#0" expanded="false" />
-            <element signature="e#936#985#0" expanded="false" />
-            <element signature="e#1000#1049#0" expanded="false" />
-            <element signature="e#1069#1201#0" expanded="false" />
-            <element signature="e#1235#1269#0" expanded="false" />
-            <element signature="e#1292#1378#0" expanded="false" />
-            <element signature="e#1394#1535#0" expanded="false" />
-            <element signature="e#1571#1622#0" expanded="false" />
-            <element signature="e#1642#1787#0" expanded="false" />
+            <element signature="e#650#737#0" expanded="false" />
+            <element signature="e#766#843#0" expanded="false" />
+            <element signature="e#856#950#0" expanded="false" />
+            <element signature="e#967#992#0" expanded="false" />
+            <element signature="e#997#1046#0" expanded="false" />
+            <element signature="e#1050#1121#0" expanded="false" />
+            <element signature="e#1127#1168#0" expanded="false" />
+            <element signature="e#1197#1459#0" expanded="false" />
+            <element signature="e#1475#1524#0" expanded="false" />
+            <element signature="e#1539#1588#0" expanded="false" />
+            <element signature="e#1608#1740#0" expanded="false" />
+            <element signature="e#1774#1808#0" expanded="false" />
+            <element signature="e#1831#1917#0" expanded="false" />
+            <element signature="e#1933#2074#0" expanded="false" />
+            <element signature="e#2110#2161#0" expanded="false" />
+            <element signature="e#2181#2326#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -924,11 +905,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
-          <folding>
-            <element signature="e#438#581#0#HTML" expanded="false" />
-            <element signature="e#800#933#0#HTML" expanded="false" />
-            <element signature="e#1096#1139#0#HTML" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -968,6 +945,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="das://table:/e71acb1d/1512f49f-686a-48b3-bff1-821ac0d69f86/voting_system.users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -976,90 +960,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/e71acb1d/1512f49f-686a-48b3-bff1-821ac0d69f86/voting_system.users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/signin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SignInServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RegistrationServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="29" column="38" lean-forward="false" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1685459337000" expanded="true" signature="1226:1309" ph="INSERT INTO voting_system.users... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="64" column="43" lean-forward="false" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="24" selection-end-column="12" />
-          <folding />
+        <state relative-caret-position="105">
+          <caret line="7" column="6" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="98" selection-end-column="7" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="12" column="7" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="50" selection-end-column="1" />
+        <state relative-caret-position="523">
+          <caret line="196" column="1" lean-forward="false" selection-start-line="196" selection-start-column="1" selection-end-line="196" selection-end-column="1" />
           <folding>
             <element signature="e#1#63#0" expanded="false" />
             <element signature="e#70#125#0" expanded="false" />
             <element signature="e#148#251#0" expanded="false" />
+            <element signature="e#272#398#0" expanded="false" />
             <element signature="e#406#499#0" expanded="false" />
+            <element signature="e#511#591#0" expanded="false" />
             <element signature="e#606#633#0" expanded="false" />
-            <element signature="e#766#920#0" expanded="false" />
-            <element signature="e#936#985#0" expanded="false" />
-            <element signature="e#1000#1049#0" expanded="false" />
-            <element signature="e#1069#1201#0" expanded="false" />
-            <element signature="e#1235#1269#0" expanded="false" />
-            <element signature="e#1292#1378#0" expanded="false" />
-            <element signature="e#1394#1535#0" expanded="false" />
-            <element signature="e#1571#1622#0" expanded="false" />
-            <element signature="e#1642#1787#0" expanded="false" />
+            <element signature="e#650#737#0" expanded="false" />
+            <element signature="e#766#843#0" expanded="false" />
+            <element signature="e#856#950#0" expanded="false" />
+            <element signature="e#967#992#0" expanded="false" />
+            <element signature="e#997#1046#0" expanded="false" />
+            <element signature="e#1050#1121#0" expanded="false" />
+            <element signature="e#1127#1168#0" expanded="false" />
+            <element signature="e#1197#1459#0" expanded="false" />
+            <element signature="e#1475#1524#0" expanded="false" />
+            <element signature="e#1539#1588#0" expanded="false" />
+            <element signature="e#1608#1740#0" expanded="false" />
+            <element signature="e#1774#1808#0" expanded="false" />
+            <element signature="e#1831#1917#0" expanded="false" />
+            <element signature="e#1933#2074#0" expanded="false" />
+            <element signature="e#2110#2161#0" expanded="false" />
+            <element signature="e#2181#2326#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/home.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="59" column="9" lean-forward="false" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+        <state relative-caret-position="399">
+          <caret line="88" column="13" lean-forward="true" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/signin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-210">
+          <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RegistrationServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="11" column="66" lean-forward="false" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
           <folding>
-            <element signature="e#438#581#0#HTML" expanded="false" />
-            <element signature="e#800#933#0#HTML" expanded="false" />
-            <element signature="e#1096#1139#0#HTML" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <marker date="1685474954000" expanded="true" signature="1253:1336" ph="INSERT INTO voting_system.users... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SignInServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="58" lean-forward="false" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="64" column="43" lean-forward="false" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>

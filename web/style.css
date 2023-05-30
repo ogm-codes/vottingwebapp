@@ -50,10 +50,47 @@ body {
     padding: 10px;
 }
 
+/* About page */
+#about-us {
+    background-color: #f2f2f2;
+    padding: 50px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.about-content {
+    max-width: 600px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 70%;
+    height: auto;
+}
+
 /* Hero page */
 #hero-page {
     height: 400px;
     background-color: #f9f9f9;
+    background-image: url("ballot_box.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -110,4 +147,51 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+}
+
+/*mobile response */
+@media only screen and (max-width: 600px) {
+    /* Navbar */
+    .navbar {
+        padding: 10px;
+    }
+
+    .navbar .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-menu {
+        margin-top: 10px;
+        justify-content: flex-start;
+    }
+
+    .nav-menu li {
+        margin-bottom: 10px;
+    }
+
+    /* About page */
+    #about-us {
+        padding: 20px;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    /* Hero page */
+    #hero-page {
+        height: auto;
+        padding: 20px;
+    }
+
+    #hero-page .hero-content {
+        text-align: center;
+    }
+
+    /* service section */
+    #services .container {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        gap: 20px;
+    }
 }

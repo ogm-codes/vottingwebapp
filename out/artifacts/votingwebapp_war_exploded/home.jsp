@@ -85,7 +85,7 @@
     <div class="container">
         <a href="#hero-page" class="logo"></a>
         <ul class="nav-menu">
-            <li><a href="#footer-page">Contact</a></li>
+            <li><a href="#footer-page">profile</a></li>
         </ul>
     </div>
 </nav>
