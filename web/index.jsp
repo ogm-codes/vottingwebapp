@@ -13,13 +13,13 @@
   <body>
   <header>
       <nav class="navbar">
-          <div>
+          <div class="container">
               <a href="#hero-page" class="logo"></a>
               <ul class="nav-menu">
-                  <li><a href="#hero-page"></a></li>
-                  <li><a href="#about-us"></a></li>
-                  <li><a href="#services"></a></li>
-                  <li><a href="#footer-page"></a></li>
+                  <li><a href="#hero-page">Home</a></li>
+                  <li><a href="#about-us">About</a></li>
+                  <li><a href="#services"></a>Services</li>
+                  <li><a href="#footer-page">Contact</a></li>
               </ul>
           </div>
       </nav>
@@ -29,7 +29,7 @@
           <div class="hero-content">
               <h1>Vote change</h1>
               <p>lorem ipsum</p>
-              <button>Vote!</button>
+              <button id="vote-button">Vote!</button>
           </div>
       </div>
   </section>
@@ -81,6 +81,17 @@
         </div>
     </footer>
   </section>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get the button element
+            var voteButton = document.getElementById("vote-button");
 
+            // Add a click event listener to the button
+            voteButton.addEventListener("click", function() {
+                // Redirect to the "signin.jsp" page
+                window.location.href = "signin.jsp";
+            });
+        });
+    </script>
   </body>
 </html>
