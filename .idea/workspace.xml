@@ -33,6 +33,12 @@
         <item name="votedatabase" type="e3449647:DbNodeDescriptor" />
         <item name="voting_system" type="e3449647:DbNodeDescriptor" />
       </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="votedatabase" type="e3449647:DbNodeDescriptor" />
+        <item name="voting_system" type="e3449647:DbNodeDescriptor" />
+        <item name="users" type="e3449647:DbNodeDescriptor" />
+      </path>
     </expand>
     <select />
   </component>
@@ -41,14 +47,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="signin.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/signin.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="83">
+              <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/register.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="64" column="43" lean-forward="false" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="RegistrationServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RegistrationServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="28" column="40" lean-forward="false" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="41" />
+            <state relative-caret-position="387">
+              <caret line="29" column="38" lean-forward="false" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
               <folding>
-                <marker date="1685379978000" expanded="true" signature="1134:1228" ph="INSERT INTO users... " />
+                <element signature="imports" expanded="true" />
+                <marker date="1685459337000" expanded="true" signature="1226:1309" ph="INSERT INTO voting_system.users... " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/home.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="705">
+              <caret line="59" column="9" lean-forward="false" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+              <folding>
+                <element signature="e#438#581#0#HTML" expanded="false" />
+                <element signature="e#800#933#0#HTML" expanded="false" />
+                <element signature="e#1096#1139#0#HTML" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users" pinned="false" current-in-tab="false">
+        <entry file="das://table:/e71acb1d/1512f49f-686a-48b3-bff1-821ac0d69f86/voting_system.users">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -56,24 +106,30 @@
       <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="42" lean-forward="false" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+            <state relative-caret-position="315">
+              <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
-              <caret line="93" column="11" lean-forward="false" selection-start-line="93" selection-start-column="11" selection-end-line="93" selection-end-column="11" />
+            <state relative-caret-position="210">
+              <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="24" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SignInServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SignInServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
-                <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#footer#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -82,8 +138,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="38" column="18" lean-forward="false" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+            <state relative-caret-position="75">
+              <caret line="12" column="7" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="50" selection-end-column="1" />
               <folding>
                 <element signature="e#1#63#0" expanded="false" />
                 <element signature="e#70#125#0" expanded="false" />
@@ -126,15 +182,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/registrationservlet.java" />
-        <option value="$PROJECT_DIR$/web/register.jsp" />
         <option value="src:table:/e71acb1d/1512f49f-686a-48b3-bff1-821ac0d69f86/voting_system.users" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/RegistrationServlet.java" />
         <option value="$PROJECT_DIR$/web/signin.jsp" />
         <option value="$PROJECT_DIR$/src/SignInServlet.java" />
-        <option value="$PROJECT_DIR$/web/home.jsp" />
         <option value="$PROJECT_DIR$/web/style.css" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/register.jsp" />
+        <option value="$PROJECT_DIR$/src/RegistrationServlet.java" />
+        <option value="$PROJECT_DIR$/web/home.jsp" />
       </list>
     </option>
   </component>
@@ -159,7 +215,7 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="851" />
+    <option name="x" value="854" />
     <option name="y" value="23" />
     <option name="width" value="829" />
     <option name="height" value="1023" />
@@ -180,6 +236,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -207,10 +264,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -236,7 +292,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.index.jsp">
+  <component name="RunManager" selected="Tomcat Server.home.jsp">
     <configuration name="Tomcat 9.0.75" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.75" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
         <artifact name="votingwebapp:war exploded">
@@ -521,10 +577,10 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Tomcat Server.index.jsp" />
+        <item index="0" class="java.lang.String" itemvalue="Tomcat Server.home.jsp" />
         <item index="1" class="java.lang.String" itemvalue="Tomcat Server.register.jsp" />
-        <item index="2" class="java.lang.String" itemvalue="Tomcat Server.signin.jsp" />
-        <item index="3" class="java.lang.String" itemvalue="Tomcat Server.home.jsp" />
+        <item index="2" class="java.lang.String" itemvalue="Tomcat Server.index.jsp" />
+        <item index="3" class="java.lang.String" itemvalue="Tomcat Server.signin.jsp" />
       </list>
     </recent_temporary>
   </component>
@@ -541,12 +597,13 @@
       <workItem from="1685302534265" duration="2281000" />
       <workItem from="1685347639833" duration="10819000" />
       <workItem from="1685376404640" duration="6905000" />
-      <workItem from="1685436509297" duration="4446000" />
+      <workItem from="1685436509297" duration="8841000" />
+      <workItem from="1685458732728" duration="2492000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24451000" />
+    <option name="totallyTimeSpent" value="31338000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -558,7 +615,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="851" y="23" width="829" height="1023" extended-state="0" />
+    <frame x="854" y="23" width="829" height="1023" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -572,13 +629,13 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.4952153" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4205845" sideWeight="0.4437299" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4205845" sideWeight="0.4437299" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4205845" sideWeight="0.5562701" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21058202" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1007326" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48923445" sideWeight="0.488746" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -621,6 +678,89 @@
     <entry file="file://$PROJECT_DIR$/web/register.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="960">
+          <caret line="64" column="43" lean-forward="false" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RegistrationServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="35" column="40" lean-forward="false" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1685459337000" expanded="true" signature="1226:1309" ph="INSERT INTO voting_system.users... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/e71acb1d/1512f49f-686a-48b3-bff1-821ac0d69f86/voting_system.users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1245">
+          <caret line="83" column="11" lean-forward="false" selection-start-line="83" selection-start-column="11" selection-end-line="83" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SignInServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="38" column="18" lean-forward="false" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+          <folding>
+            <element signature="e#1#63#0" expanded="false" />
+            <element signature="e#70#125#0" expanded="false" />
+            <element signature="e#148#251#0" expanded="false" />
+            <element signature="e#406#499#0" expanded="false" />
+            <element signature="e#606#633#0" expanded="false" />
+            <element signature="e#766#920#0" expanded="false" />
+            <element signature="e#936#985#0" expanded="false" />
+            <element signature="e#1000#1049#0" expanded="false" />
+            <element signature="e#1069#1201#0" expanded="false" />
+            <element signature="e#1235#1269#0" expanded="false" />
+            <element signature="e#1292#1378#0" expanded="false" />
+            <element signature="e#1394#1535#0" expanded="false" />
+            <element signature="e#1571#1622#0" expanded="false" />
+            <element signature="e#1642#1787#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/signin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
           <caret line="64" column="47" lean-forward="false" selection-start-line="64" selection-start-column="47" selection-end-line="64" selection-end-column="47" />
           <folding />
         </state>
@@ -631,7 +771,8 @@
         <state relative-caret-position="285">
           <caret line="28" column="40" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="41" />
           <folding>
-            <marker date="1685379978000" expanded="true" signature="1134:1228" ph="INSERT INTO users... " />
+            <element signature="imports" expanded="true" />
+            <marker date="1685459337000" expanded="true" signature="1226:1309" ph="INSERT INTO voting_system.users... " />
           </folding>
         </state>
       </provider>
@@ -658,13 +799,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1170">
           <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-          <folding>
-            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -712,7 +847,8 @@
         <state relative-caret-position="540">
           <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
           <folding>
-            <marker date="1685379978000" expanded="true" signature="1134:1228" ph="INSERT INTO users... " />
+            <element signature="imports" expanded="true" />
+            <marker date="1685459337000" expanded="true" signature="1226:1309" ph="INSERT INTO voting_system.users... " />
           </folding>
         </state>
       </provider>
@@ -721,13 +857,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1170">
           <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-          <folding>
-            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -736,11 +866,9 @@
         <state relative-caret-position="585">
           <caret line="39" column="35" lean-forward="false" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
           <folding>
-            <element signature="e#246#348#0#HTML" expanded="false" />
-            <element signature="e#363#400#0#HTML" expanded="false" />
-            <element signature="e#416#558#0#HTML" expanded="false" />
-            <element signature="e#581#772#0#HTML" expanded="false" />
-            <element signature="e#801#848#0#HTML" expanded="false" />
+            <element signature="e#438#581#0#HTML" expanded="false" />
+            <element signature="e#800#933#0#HTML" expanded="false" />
+            <element signature="e#1096#1139#0#HTML" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -797,11 +925,9 @@
         <state relative-caret-position="150">
           <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
           <folding>
-            <element signature="e#246#348#0#HTML" expanded="false" />
-            <element signature="e#363#400#0#HTML" expanded="false" />
-            <element signature="e#416#558#0#HTML" expanded="false" />
-            <element signature="e#581#772#0#HTML" expanded="false" />
-            <element signature="e#801#848#0#HTML" expanded="false" />
+            <element signature="e#438#581#0#HTML" expanded="false" />
+            <element signature="e#800#933#0#HTML" expanded="false" />
+            <element signature="e#1096#1139#0#HTML" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -842,29 +968,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="64" column="47" lean-forward="false" selection-start-line="64" selection-start-column="47" selection-end-line="64" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="42" lean-forward="false" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+        <state relative-caret-position="315">
+          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RegistrationServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="28" column="40" lean-forward="false" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="41" />
-          <folding>
-            <marker date="1685379978000" expanded="true" signature="1134:1228" ph="INSERT INTO users... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -877,7 +985,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/signin.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="83">
           <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
           <folding />
         </state>
@@ -885,7 +993,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SignInServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="240">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -893,24 +1001,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/home.jsp">
+    <entry file="file://$PROJECT_DIR$/src/RegistrationServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="387">
+          <caret line="29" column="38" lean-forward="false" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
           <folding>
-            <element signature="e#246#348#0#HTML" expanded="false" />
-            <element signature="e#363#400#0#HTML" expanded="false" />
-            <element signature="e#416#558#0#HTML" expanded="false" />
-            <element signature="e#581#772#0#HTML" expanded="false" />
-            <element signature="e#801#848#0#HTML" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <marker date="1685459337000" expanded="true" signature="1226:1309" ph="INSERT INTO voting_system.users... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="64" column="43" lean-forward="false" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="24" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="38" column="18" lean-forward="false" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+        <state relative-caret-position="75">
+          <caret line="12" column="7" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="50" selection-end-column="1" />
           <folding>
             <element signature="e#1#63#0" expanded="false" />
             <element signature="e#70#125#0" expanded="false" />
@@ -930,16 +1051,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+    <entry file="file://$PROJECT_DIR$/web/home.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="93" column="11" lean-forward="false" selection-start-line="93" selection-start-column="11" selection-end-line="93" selection-end-column="11" />
+        <state relative-caret-position="705">
+          <caret line="59" column="9" lean-forward="false" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
           <folding>
-            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#438#581#0#HTML" expanded="false" />
+            <element signature="e#800#933#0#HTML" expanded="false" />
+            <element signature="e#1096#1139#0#HTML" expanded="false" />
           </folding>
         </state>
       </provider>

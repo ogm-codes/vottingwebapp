@@ -53,16 +53,16 @@
 <form action="/register" method="post">
     <h2>Welcome</h2>
     <label for="name">Name:</label>
-    <input type="text" id="name" name="name" required><br>
+    <input type="text" id="name" name="regname" required><br>
 
     <label for="surname">Surname:</label>
-    <input type="text" id="surname" name="surnname" required><br>
+    <input type="text" id="surname" name="regsurnname" required><br>
 
     <label for="idnumber">ID Number:</label>
-    <input type="text" id="idnumber" name="idnumber" required><br>
+    <input type="text" id="idnumber" name="regidnumber" required><br>
 
     <label for="email">Email:</label>
-    <input type="text" id="email" name="email">
+    <input type="text" id="email" name="regemail">
 
     <label for="password">Password:</label>
     <input type="text" id="password" name="password" required><br>

@@ -12,26 +12,38 @@ import java.sql.SQLException;
 @WebServlet(name = "RegistrationServlet")
 public class RegistrationServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String name = request.getParameter("name");
-        String surname = request.getParameter("surname");
-        String ID = request.getParameter("idnumber");
-        String email = request.getParameter("email");
-        String password = request.getParameter("password");
+        String name = request.getParameter("regname");
+        String surname = request.getParameter("regsurname");
+        String IDnum = request.getParameter("regidnumber");
+        String email = request.getParameter("regemail");
+        String password = request.getParameter("regpassword");
 
         String URL = "jdbc:mysql://localhost:3306/voting_system";
         String username = "root";
         String DBpassword = "newpass";
 
+        //Create a username for user
+        String genusername = "ure";
+
         try (Connection connection = DriverManager.getConnection(URL,username,DBpassword))
         {
-            String sql = "INSERT INTO voting_system.users (first_name, last_name, id, email,password) VALUES (?,?,?,?,?)";
+            String sql = "INSERT INTO users (username,password,first_name,last_name,email) VALUES (?,?,?,?,?)";
             PreparedStatement statement = connection.prepareStatement(sql);
-            statement.setString(1, name);
-            statement.setString(2, surname);
-            statement.setString(3, email);
-            statement.setString(4, ID);
-            statement.setString(5, password);
-            statement.executeUpdate();
+            statement.setString(1, IDnum);
+            statement.setString(2, password);
+            statement.setString(3, name);
+            statement.setString(4, surname);
+            statement.setString(5, email);
+           // statement.setString(6, email);
+            int newUsers = statement.executeUpdate();
+            if (newUsers >= 1)
+            {
+                System.out.println("Sucess");
+            }
+            else
+            {
+                System.out.println("Failure");
+            }
 
         } catch (SQLException e)
         {

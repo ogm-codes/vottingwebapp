@@ -18,6 +18,46 @@
         main {
             margin: 20px;
         }
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: flex-end;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+
+        .navbar .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .logo {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            background-color: plum;
+        }
+
+        .nav-menu {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .nav-menu li {
+            margin-right: 10px;
+        }
+
+        .nav-menu li a {
+            color: #333;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 10px;
+        }
 
         .card {
             background-color: #f4f4f4;
@@ -41,6 +81,14 @@
     </style>
 </head>
 <body>
+<nav class="navbar">
+    <div class="container">
+        <a href="#hero-page" class="logo"></a>
+        <ul class="nav-menu">
+            <li><a href="#footer-page">profile</a></li>
+        </ul>
+    </div>
+</nav>
  <h1>Welcome to the interface</h1>
 
  <div class="card">
