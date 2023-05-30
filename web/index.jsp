@@ -24,7 +24,15 @@
           </div>
       </nav>
   </header>
-  <section id="hero-page"></section>
+  <section id="hero-page">
+      <div class="container">
+          <div class="hero-content">
+              <h1>Vote change</h1>
+              <p>lorem ipsum</p>
+              <button>Vote!</button>
+          </div>
+      </div>
+  </section>
   <section id="about-us">
       <div class="container">
           <div class="about-content">
