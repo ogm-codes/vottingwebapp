@@ -65,10 +65,10 @@
     <input type="text" id="email" name="regemail">
 
     <label for="password">Password:</label>
-    <input type="text" id="password" name="password" required><br>
+    <input type="text" id="password" name="regpassword" required><br>
 
-    <button type="submit">Register</button>
-
+    <button type="submit" name="registeButton">Register</button>
+z
 </form>
 </body>
 </html>

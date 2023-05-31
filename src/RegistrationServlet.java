@@ -18,7 +18,10 @@ public class RegistrationServlet extends HttpServlet {
         String email = request.getParameter("regemail");
         String password = request.getParameter("regpassword");
 
-        String URL = "jdbc:mysql://localhost:3306/voting_system";
+        // button
+        String buttonValue = request.getParameter("");
+
+        String URL = "jdbc:mysql://localhost:3306/votedatabase";
         String username = "root";
         String DBpassword = "newpass";
 
@@ -27,7 +30,7 @@ public class RegistrationServlet extends HttpServlet {
 
         try (Connection connection = DriverManager.getConnection(URL,username,DBpassword))
         {
-            String sql = "INSERT INTO users (username,password,first_name,last_name,email) VALUES (?,?,?,?,?)";
+            String sql = "INSERT INTO voting_system.users (username,password,first_name,last_name,email) VALUES (?,?,?,?,?)";
             PreparedStatement statement = connection.prepareStatement(sql);
             statement.setString(1, IDnum);
             statement.setString(2, password);
