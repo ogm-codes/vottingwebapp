@@ -26,6 +26,12 @@
             padding: 20px;
         }
 
+        h1 {
+            background-image: url("voting_box.jpg");
+           /* background-size: cover; */
+           /* background-position: center; */
+        }
+
         .navbar .container {
             display: flex;
             align-items: center;
