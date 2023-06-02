@@ -27,7 +27,7 @@
         }
 
         h1 {
-            background-image: url("voting_box.jpg");
+            background-image: url("ballot_box.jpeg");
            /* background-size: cover; */
            /* background-position: center; */
         }
