@@ -8,110 +8,65 @@
 <html>
 <head>
     <title>Title</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css">
+    <link rel="stylesheet" href="dashboard.css">
 
-        main {
-            margin: 20px;
-        }
-        /* Navbar */
-        .navbar {
-            display: flex;
-            justify-content: flex-end;
-            background-color: #f2f2f2;
-            padding: 20px;
-        }
-
-        h1 {
-
-        }
-
-        .navbar .container {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        .logo {
-            display: inline-block;
-            width: 50px;
-            height: 50px;
-            background-color: plum;
-        }
-
-        .nav-menu {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-        }
-
-        .nav-menu li {
-            margin-right: 10px;
-        }
-
-        .nav-menu li a {
-            color: #333;
-            text-decoration: none;
-            font-size: 16px;
-            padding: 10px;
-        }
-
-        .card {
-            background-color: #f4f4f4;
-            border-radius: 5px;
-            padding: 20px;
-            margin-bottom: 20px;
-        }
-
-        .card button {
-            background-color: #333;
-            color: #fff;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 3px;
-            cursor: pointer;
-        }
-
-        .card button:hover {
-            background-color: #555;
-        }
-    </style>
 </head>
-<body>
-<nav class="navbar">
-    <div class="container">
-        <a href="#hero-page" class="logo"></a>
-        <ul class="nav-menu">
-            <li><a href="#footer-page">profile</a></li>
-        </ul>
+<div class="container">
+    <h1>Voting Dashboard</h1>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">Statistics</h3>
+                </div>
+                <div class="card-body">
+                    <ul>
+                        <li>Number of registered voters: 100</li>
+                        <li>Number of votes cast: 50</li>
+                        <li>Percentage of votes cast: 50%</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">Results</h3>
+                </div>
+                <div class="card-body">
+                    <ul class="results-list">
+                        <li>
+                            Candidate A
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 30%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            Candidate B
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 20%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            Candidate C
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 10%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            Candidate D
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 40%"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
-</nav>
- <h1>Welcome to the interface</h1>
-
- <div class="card">
-     <h3>National Government Party</h3>
-     <p>Vote for the national government party.</p>
-     <button onclick="castVote('national')">Vote</button>
- </div>
-
- <div class="card">
-     <h3>Provincial Government Party</h3>
-     <p>Vote for the provincial government party.</p>
-     <button onclick="castVote('provincial')">Vote</button>
- </div>
-
- <div class="card">
-     <h3>Local Government Party</h3>
-     <p>Vote for the local government party.</p>
-     <button onclick="castVote('local')">Vote</button>
- </div>
+</div>
 
 </body>
 </html>
