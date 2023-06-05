@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="dashboard.css">
 
 </head>
+<body>
 <div class="container">
     <h1>Voting Dashboard</h1>
     <div class="row">
@@ -63,6 +64,54 @@
     </div>
 </div>
 
-
+<div class="row">
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title">National Government</h3>
+            </div>
+            <div class="card-body">
+                <input type="radio" name="national" value="candidateA">ANC
+                <br>
+                <input type="radio" name="national" value="candidateB">EFF
+                <br>
+                <input type="radio" name="national" value="candidateC">DA
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title">Provincial Government</h3>
+            </div>
+            <div class="card-body">
+                <input type="radio" name="provincial" value="candidateA">ANC
+                <br>
+                <input type="radio" name="provincial" value="candidateB">EFF
+                <br>
+                <input type="radio" name="provincial" value="candidateC">DA
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title">Local Government</h3>
+            </div>
+            <div class="card-body">
+                <input type="radio" name="local" value="candidateA">ANC
+                <br>
+                <input type="radio" name="local" value="candidateB">EFF
+                <br>
+                <input type="radio" name="local" value="candidateC">DA
+            </div>
+        </div>
+    </div>
+</div>
+<button type="submit">Submit</button>
+</div>
+</div>
+<button type="submit">Submit</button>
+</div>
 </body>
 </html>
