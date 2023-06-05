@@ -39,19 +39,19 @@
                 <div class="card-body">
                     <ul class="results-list">
                         <li>
-                            Candidate A
+                            ANC
                             <div class="progress">
                                 <div class="progress-bar" style="width: 30%"></div>
                             </div>
                         </li>
                         <li>
-                            Candidate B
+                            EFF
                             <div class="progress">
                                 <div class="progress-bar" style="width: 20%"></div>
                             </div>
                         </li>
                         <li>
-                            Candidate C
+                            DA
                             <div class="progress">
                                 <div class="progress-bar" style="width: 10%"></div>
                             </div>
@@ -111,7 +111,6 @@
 <button type="submit">Submit</button>
 </div>
 </div>
-<button type="submit">Submit</button>
 </div>
 </body>
 </html>
