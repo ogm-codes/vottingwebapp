@@ -14,6 +14,13 @@
 
 </head>
 <body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="user.png" alt="user icon" width="30" height="30">
+        </a>
+    </nav>
+</header>
 <div class="container">
     <h1>Voting Dashboard</h1>
     <div class="row">
