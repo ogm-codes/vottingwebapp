@@ -74,7 +74,9 @@
     <footer>
       <div class="footer-container">
         <div class="footer-content">
-          <p>&copy; 2023 My Website. All rights reserved.</p>
+          <h3>Just Vote</h3>
+          <p>1 Hacker Way, Durban, 3092</p>
+          <p>Phone: 090 190 1212<br> Email: doesn'twork@ogmcodes</p>
         </div>
         <div class="footer-social-links">
           <a href="#"><i class="fab fa-facebook-f"></i></a>

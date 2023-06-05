@@ -55,18 +55,14 @@
                                 <div class="progress-bar" style="width: 10%"></div>
                             </div>
                         </li>
-                        <li>
-                            Candidate D
-                            <div class="progress">
-                                <div class="progress-bar" style="width: 40%"></div>
-                            </div>
-                        </li>
+
                     </ul>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
 
 </body>
 </html>
