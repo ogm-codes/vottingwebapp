@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="myDB@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.4">
+    <root id="1"/>
+    <schema id="2" parent="1" name="myDb">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="information_schema"/>
+    <schema id="4" parent="1" name="mysql"/>
+    <schema id="5" parent="1" name="performance_schema"/>
+    <schema id="6" parent="1" name="users"/>
+    <table id="7" parent="2" name="employees"/>
+    <table id="8" parent="2" name="voters"/>
+    <column id="9" parent="7" name="employee_id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="10" parent="7" name="first_name">
+      <Position>2</Position>
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <column id="11" parent="7" name="last_name">
+      <Position>3</Position>
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <column id="12" parent="7" name="hourly_pay">
+      <Position>4</Position>
+      <DataType>decimal(5,2)|0</DataType>
+    </column>
+    <column id="13" parent="7" name="hire_date">
+      <Position>5</Position>
+      <DataType>date|0</DataType>
+    </column>
+    <column id="14" parent="8" name="user_id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="15" parent="8" name="user_name">
+      <Position>2</Position>
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <column id="16" parent="8" name="user_surname">
+      <Position>3</Position>
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <column id="17" parent="8" name="user_idnumber">
+      <Position>4</Position>
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <column id="18" parent="8" name="user_mail">
+      <Position>5</Position>
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <column id="19" parent="8" name="user_password">
+      <Position>6</Position>
+      <DataType>varchar(50)|0</DataType>
+    </column>
+  </database-model>
+</dataSource>

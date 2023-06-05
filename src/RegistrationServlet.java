@@ -21,7 +21,7 @@ public class RegistrationServlet extends HttpServlet {
         // button jdbc:mysql://127.0.0.1:3306/?user=root
         String buttonValue = request.getParameter("");
 
-        String URL = "jdbc:mysql://localhost:3306/user=root";
+        String URL = "jdbc:mysql://localhost:3306/myDb";
         String username = "root";
         String DBpassword = "newpass";
 
@@ -30,18 +30,20 @@ public class RegistrationServlet extends HttpServlet {
 
         try (Connection connection = DriverManager.getConnection(URL,username,DBpassword))
         {
-            String sql = "INSERT INTO users (username,password,first_name,last_name,email) VALUES (?,?,?,?,?)";
+            String sql = "INSERT INTO voters (user_id,user_name,user_surname,user_idnumber,user_mail,user_password) VALUES (?,?,?,?,?,?)";
             PreparedStatement statement = connection.prepareStatement(sql);
             statement.setString(1, IDnum);
-            statement.setString(2, password);
-            statement.setString(3, name);
-            statement.setString(4, surname);
+            statement.setString(2, name);
+            statement.setString(3, surname);
+            statement.setString(4, IDnum);
             statement.setString(5, email);
+            statement.setString(6,password);
            // statement.setString(6, email);
             int newUsers = statement.executeUpdate();
             if (newUsers >= 1)
             {
                 System.out.println("Sucess");
+                response.sendRedirect("home.jsp");
             }
             else
             {
@@ -53,7 +55,7 @@ public class RegistrationServlet extends HttpServlet {
             e.printStackTrace();
         }
 
-        response.sendRedirect("home.jsp");
+
 
         //
 

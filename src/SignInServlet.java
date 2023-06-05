@@ -11,8 +11,7 @@ public class SignInServlet extends HttpServlet {
         String id = request.getParameter("idnumber");
         String password = request.getParameter("password");
 
-        boolean userExists;
-    }
 
+    }
 
 }

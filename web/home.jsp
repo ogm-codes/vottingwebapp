@@ -27,9 +27,7 @@
         }
 
         h1 {
-            background-image: url("ballot_box.jpeg");
-           /* background-size: cover; */
-           /* background-position: center; */
+
         }
 
         .navbar .container {
