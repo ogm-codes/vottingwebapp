@@ -67,8 +67,8 @@
     <label for="password">Password:</label>
     <input type="text" id="password" name="regpassword" required><br>
 
-    <button type="submit" name="registeButton">Register</button>
-z
+    <button type="submit" name="registerButton">Register</button>
+
 </form>
 </body>
 </html>

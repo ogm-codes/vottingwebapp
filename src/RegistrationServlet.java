@@ -19,45 +19,32 @@ public class RegistrationServlet extends HttpServlet {
         String password = request.getParameter("regpassword");
 
         // button jdbc:mysql://127.0.0.1:3306/?user=root
-        String buttonValue = request.getParameter("");
 
         String URL = "jdbc:mysql://localhost:3306/myDb";
         String username = "root";
         String DBpassword = "newpass";
 
         //Create a username for user
-        String genusername = "ure";
+        int users = 0;
 
         try (Connection connection = DriverManager.getConnection(URL,username,DBpassword))
         {
             String sql = "INSERT INTO voters (user_id,user_name,user_surname,user_idnumber,user_mail,user_password) VALUES (?,?,?,?,?,?)";
             PreparedStatement statement = connection.prepareStatement(sql);
-            statement.setString(1, IDnum);
+            statement.setString(1, String.valueOf(users = users + 1));
             statement.setString(2, name);
             statement.setString(3, surname);
             statement.setString(4, IDnum);
             statement.setString(5, email);
             statement.setString(6,password);
-           // statement.setString(6, email);
-            int newUsers = statement.executeUpdate();
-            if (newUsers >= 1)
-            {
-                System.out.println("Sucess");
-                response.sendRedirect("home.jsp");
-            }
-            else
-            {
-                System.out.println("Failure");
-            }
+            statement.executeUpdate();
 
+            response.sendRedirect("home.jsp");
         } catch (SQLException e)
         {
             e.printStackTrace();
+            request.setAttribute("errorMessage", "An error occurred");
         }
-
-
-
-        //
 
     }
 
