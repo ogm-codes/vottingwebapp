@@ -6,12 +6,28 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 @WebServlet(name = "SignInServlet", urlPatterns = "/signin")
-public class SignInServlet extends HttpServlet {
+public class SignInServlet extends HttpServlet
+{
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String id = request.getParameter("idnumber");
         String password = request.getParameter("password");
 
+        Boolean authenticated = authenticateuser(id,password);
 
+        if (authenticated)
+        {
+            response.sendRedirect("home.jsp");
+        }
+        else
+        {
+            response.sendRedirect("sigin.jsp?error=1");
+        }
+
+    }
+
+    private boolean authenticateuser(String userID, String userPassword)
+    {
+        return false;
     }
 
 }
