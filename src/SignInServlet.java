@@ -23,7 +23,7 @@ public class SignInServlet extends HttpServlet
         }
         else
         {
-            response.sendRedirect("sigin.jsp?error=1");
+            response.sendRedirect("signin.jsp?error=1");
         }
 
     }
