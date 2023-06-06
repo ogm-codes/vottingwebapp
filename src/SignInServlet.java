@@ -4,10 +4,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
+import java.sql.*;
 
 @WebServlet(name = "SignInServlet", urlPatterns = "/signin")
 public class SignInServlet extends HttpServlet
@@ -43,9 +40,14 @@ public class SignInServlet extends HttpServlet
             PreparedStatement statement = connection.prepareStatement(sqlQuery);
 
             //
+            statement.setString(1,userID);
+            statement.setString(2,userPassword);
+
+            ResultSet result = statement.executeQuery();
+            return result.next();
 
         } catch (SQLException e) {
-
+            e.printStackTrace();
         }
 
         return false;
