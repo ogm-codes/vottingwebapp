@@ -6,116 +6,146 @@
 <html>
 <head>
     <title>Home page</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
     <link rel="stylesheet" href="dashboard.css">
 
 </head>
 <body>
-<header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">
-            <img src="user.png" alt="user icon" width="30" height="30">
-        </a>
-    </nav>
+
+<div class="grid-container">
+
+<!-- Header -->
+<header class="header">
+    <div class="menu-icon" onclick="openSidebar()">
+        <span class="material-icons-outlined">menu</span>
+    </div>
+    <div class="header-left">
+        <span class="material-icons-outlined">search</span>
+    </div>
+    <div class="header-right">
+        <span class="material-icons-outlined">notifications</span>
+        <span class="material-icons-outlined">email</span>
+        <span class="material-icons-outlined">account_circle</span>
+    </div>
 </header>
-<div class="container">
-    <h1>Voting Dashboard</h1>
-    <div class="row">
-        <div class="col-md-6">
-            <div class="card">
-                <div class="card-header">
-                    <h3 class="card-title">Statistics</h3>
-                </div>
-                <div class="card-body">
-                    <ul>
-                        <li>Number of registered voters: 100</li>
-                        <li>Number of votes cast: 50</li>
-                        <li>Percentage of votes cast: 50%</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="card">
-                <div class="card-header">
-                    <h3 class="card-title">Results</h3>
-                </div>
-                <div class="card-body">
-                    <ul class="results-list">
-                        <li>
-                            ANC
-                            <div class="progress">
-                                <div class="progress-bar" style="width: 30%"></div>
-                            </div>
-                        </li>
-                        <li>
-                            EFF
-                            <div class="progress">
-                                <div class="progress-bar" style="width: 20%"></div>
-                            </div>
-                        </li>
-                        <li>
-                            DA
-                            <div class="progress">
-                                <div class="progress-bar" style="width: 10%"></div>
-                            </div>
-                        </li>
+<!-- End Header -->
 
-                    </ul>
-                </div>
-            </div>
+<!-- Sidebar -->
+<aside id="sidebar">
+    <div class="sidebar-title">
+        <div class="sidebar-brand">
+            <span class="material-icons-outlined"></span> Voting System
         </div>
+        <span class="material-icons-outlined" onclick="closeSidebar()">close</span>
     </div>
+
+    <ul class="sidebar-list">
+        <li class="sidebar-list-item">
+            <a href="#" target="_blank">
+                <span class="material-icons-outlined">dashboard</span> Dashboard
+            </a>
+        </li>
+        <li class="sidebar-list-item">
+            <a href="#" target="_blank">
+                <span class="material-icons-outlined">inventory_2</span> Products
+            </a>
+        </li>
+        <li class="sidebar-list-item">
+            <a href="#" target="_blank">
+                <span class="material-icons-outlined">fact_check</span> Inventory
+            </a>
+        </li>
+        <li class="sidebar-list-item">
+            <a href="#" target="_blank">
+                <span class="material-icons-outlined">add_shopping_cart</span> Purchase Orders
+            </a>
+        </li>
+        <li class="sidebar-list-item">
+            <a href="#" target="_blank">
+                <span class="material-icons-outlined">shopping_cart</span> Sales Orders
+            </a>
+        </li>
+        <li class="sidebar-list-item">
+            <a href="#" target="_blank">
+                <span class="material-icons-outlined">poll</span> Reports
+            </a>
+        </li>
+        <li class="sidebar-list-item">
+            <a href="#" target="_blank">
+                <span class="material-icons-outlined">settings</span> Settings
+            </a>
+        </li>
+    </ul>
+</aside>
+<!-- End Sidebar -->
+
+<!-- Main -->
+<main class="main-container">
+    <div class="main-title">
+        <p class="font-weight-bold">DASHBOARD</p>
+    </div>
+
+    <div class="main-cards">
+
+        <div class="card">
+            <div class="card-inner">
+                <p class="text-primary">PRODUCTS</p>
+                <span class="material-icons-outlined text-blue">inventory_2</span>
+            </div>
+            <span class="text-primary font-weight-bold">249</span>
+        </div>
+
+        <div class="card">
+            <div class="card-inner">
+                <p class="text-primary">PURCHASE ORDERS</p>
+                <span class="material-icons-outlined text-orange">add_shopping_cart</span>
+            </div>
+            <span class="text-primary font-weight-bold">83</span>
+        </div>
+
+        <div class="card">
+            <div class="card-inner">
+                <p class="text-primary">SALES ORDERS</p>
+                <span class="material-icons-outlined text-green">shopping_cart</span>
+            </div>
+            <span class="text-primary font-weight-bold">79</span>
+        </div>
+
+        <div class="card">
+            <div class="card-inner">
+                <p class="text-primary">INVENTORY ALERTS</p>
+                <span class="material-icons-outlined text-red">notification_important</span>
+            </div>
+            <span class="text-primary font-weight-bold">56</span>
+        </div>
+
+    </div>
+
+    <div class="charts">
+
+        <div class="charts-card">
+            <p class="chart-title">Voter statistics</p>
+            <div id="bar-chart"></div>
+        </div>
+
+        <div class="charts-card">
+            <p class="chart-title">Poll statistics</p>
+            <div id="area-chart"></div>
+        </div>
+
+    </div>
+</main>
+<!-- End Main -->
+
 </div>
 
-<div class="row">
-    <div class="col-md-4">
-        <div class="card">
-            <div class="card-header">
-                <h3 class="card-title">National Government</h3>
-            </div>
-            <div class="card-body">
-                <input type="radio" name="national" value="candidateA">ANC
-                <br>
-                <input type="radio" name="national" value="candidateB">EFF
-                <br>
-                <input type="radio" name="national" value="candidateC">DA
-            </div>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <div class="card">
-            <div class="card-header">
-                <h3 class="card-title">Provincial Government</h3>
-            </div>
-            <div class="card-body">
-                <input type="radio" name="provincial" value="candidateA">ANC
-                <br>
-                <input type="radio" name="provincial" value="candidateB">EFF
-                <br>
-                <input type="radio" name="provincial" value="candidateC">DA
-            </div>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <div class="card">
-            <div class="card-header">
-                <h3 class="card-title">Local Government</h3>
-            </div>
-            <div class="card-body">
-                <input type="radio" name="local" value="candidateA">ANC
-                <br>
-                <input type="radio" name="local" value="candidateB">EFF
-                <br>
-                <input type="radio" name="local" value="candidateC">DA
-            </div>
-        </div>
-    </div>
-</div>
-<button type="submit">Submit</button>
-</div>
-</div>
-</div>
+<!-- Scripts -->
+<!-- ApexCharts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.35.3/apexcharts.min.js"></script>
+<!-- Custom JS -->
+<script src="scripts.js"></script>
 </body>
 </html>

@@ -33,13 +33,13 @@ public class SignInServlet extends HttpServlet
         String url = "jdbc:mysql://localhost:3306/myDb";
         String username = "root";
         String password = "newpass";
-
+        // String DRIVER_NAME = "com.mysql.jdbc.Driver";
         try (Connection connection = DriverManager.getConnection(url,username, password))
         {
             String sqlQuery = "SELECT * FROM voters WHERE user_idnumber = ? AND user_password = ?";
             PreparedStatement statement = connection.prepareStatement(sqlQuery);
 
-            //
+
             statement.setString(1,userID);
             statement.setString(2,userPassword);
 
