@@ -40,19 +40,19 @@ It should also be responsive, adapting its layout and functionality to different
 ## Installation
 1. Clone the repository: `git clone [repository URL]`
 2. Navigate to the project directory: `cd [project directory]`
-3. Install the dependencies: `npm install`
+3. run
 
 ## Usage
 1. Start the development server: `tomcat server`
-2. Access the web app in your browser at: `http://localhost:3000`
+2. Access the web app in your browser at: `http://localhost:8080`
 
 ## Technologies
-- [Java]: Brief description or purpose of the technology.
-- [HTML5]: Brief description or purpose of the technology.
-- [CSS3]: Brief description or purpose of the technology.
-- [Javascript] :
-- [Tomcat Server] :
-- [MySQL] :
+- [Java] 
+- [HTML5] 
+- [CSS3]
+- [Javascript] 
+- [Tomcat Server] 
+- [MySQL] 
 
 ## Contributing
 Contributions are welcome! If you would like to contribute to this project, please follow these steps:

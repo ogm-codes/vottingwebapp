@@ -22,50 +22,30 @@ function closeSidebar() {
 // ---------- CHARTS ----------
 
 // BAR CHART
-var barChartOptions = {
-    series: [{
-        data: [10, 8, 6, 4, 2]
-    }],
+ baroptions = {
     chart: {
-        type: 'bar',
-        height: 350,
-        toolbar: {
-            show: false
-        },
+        type: 'bar'
     },
-    colors: [
-        "#246dec",
-        "#cc3c43",
-        "#367952",
-        "#f5b74f",
-        "#4f35a1"
-    ],
     plotOptions: {
         bar: {
-            distributed: true,
-            borderRadius: 4,
-            horizontal: false,
-            columnWidth: '40%',
+            horizontal: true
         }
     },
-    dataLabels: {
-        enabled: false
-    },
-    legend: {
-        show: false
-    },
-    xaxis: {
-        categories: ["Laptop", "Phone", "Monitor", "Headphones", "Camera"],
-    },
-    yaxis: {
-        title: {
-            text: "Count"
-        }
-    }
-};
-
-var barChart = new ApexCharts(document.querySelector("#bar-chart"), barChartOptions);
-barChart.render();
+    series: [{
+        data: [{
+            x: 'category A',
+            y: 10
+        }, {
+            x: 'category B',
+            y: 18
+        }, {
+            x: 'category C',
+            y: 13
+        }]
+    }]
+}
+var baroptions = new ApexCharts(document.querySelector("#bar-chart"), barChartOptions);
+baroptions.render();
 
 
 // AREA CHART
