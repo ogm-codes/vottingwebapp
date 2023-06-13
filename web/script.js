@@ -41,7 +41,7 @@ function closeSidebar() {
         }, {
             x: 'category C',
             y: 13
-        }]
+        }]  
     }]
 }
 var baroptions = new ApexCharts(document.querySelector("#bar-chart"), barChartOptions);

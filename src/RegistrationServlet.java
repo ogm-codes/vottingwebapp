@@ -9,7 +9,7 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-@WebServlet(name = "RegistrationServlet", urlPatterns = "/register")
+@WebServlet(name = "RegistrationServlet", urlPatterns = {"/register", "/register.jsp"})
 public class RegistrationServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String name = request.getParameter("regname");
@@ -18,18 +18,17 @@ public class RegistrationServlet extends HttpServlet {
         String email = request.getParameter("regemail");
         String password = request.getParameter("regpassword");
 
-        // button jdbc:mysql://127.0.0.1:3306/?user=root
-
         String URL = "jdbc:mysql://localhost:3306/myDb";
         String username = "root";
         String DBpassword = "newpass";
 
-        //Create a username for user
-        int users = 0;
+
+        int users ;
+        users = 0;
 
         try (Connection connection = DriverManager.getConnection(URL,username,DBpassword))
         {
-            String sql = "INSERT INTO voters (user_id,user_name,user_surname,user_idnumber,user_mail,user_password) VALUES (?,?,?,?,?,?)";
+            String sql = "INSERT INTO myDb.voters (user_id,user_name,user_surname,user_idnumber,user_mail,user_password) VALUES (?,?,?,?,?,?)";
             PreparedStatement statement = connection.prepareStatement(sql);
             statement.setString(1, String.valueOf(users = users + 1));
             statement.setString(2, name);
@@ -43,7 +42,6 @@ public class RegistrationServlet extends HttpServlet {
         } catch (SQLException e)
         {
             e.printStackTrace();
-            request.setAttribute("errorMessage", "An error occurred");
         }
 
     }
