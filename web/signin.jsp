@@ -3,22 +3,37 @@
 <html>
 <head>
     <title>Sign In</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
 </head>
 <body>
 <div class="container">
-<form action="/signin" method="post">
-    <h2>Welcome Back!</h2>
-    <div class="form-group">
-        <label for="idnumber">ID Number:</label>
-        <input type="text" class="form-control" id="idnumber" name="idnumber" required><br>
-    </div>
-    <div>
-        <label for="password">Surname:</label>
-        <input type="text" class="form-control" id="password" name="password" required><br>
-    </div>
-    <button type="submit" class="btn btn-primary"> Sign in</button>
-</form>
+<div class="login_content">
+    <form action="/signin" method="post">
+        <div>
+            <h1 class="login_title">
+                <span>Welcome</span> Back
+            </h1>
+            <p class="login_description">
+                Welcome! Please login to continue
+            </p>
+        </div>
+
+        <div>
+            <div class="login_inputs">
+                <div>
+                    <label for="" class="login_label">Email</label>
+                    <input type="email" placeholder="Enter your email address" required class="login_input">
+                </div>
+                <div>
+                    <label for="" class="login_label">Password</label>
+                    <input type="password" placeholder="Enter your password" required class="login_input">
+                </div>
+            </div>
+        </div>
+
+
+    </form>
+</div>
 </div>
 </body>
 </html>
