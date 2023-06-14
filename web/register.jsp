@@ -12,7 +12,6 @@
 
 </head>
 <body>
-
 <div class="container">
     <div class="login__content">
 
@@ -65,7 +64,7 @@
 
             <div>
                 <div class="login__buttons">
-                    <button class="login__button">Log In</button>
+                    <button class="login__button">Registe</button>
 
                 </div>
             </div>
@@ -73,5 +72,9 @@
         </form>
     </div>
 </div>
+
+<script>
+    const
+</script>
 </body>
 </html>

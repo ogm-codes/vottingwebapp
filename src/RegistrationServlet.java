@@ -4,10 +4,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
+import java.sql.*;
 
 @WebServlet(name = "RegistrationServlet", urlPatterns = {"/register", "/register.jsp"})
 public class RegistrationServlet extends HttpServlet {
@@ -22,9 +19,8 @@ public class RegistrationServlet extends HttpServlet {
         String username = "root";
         String DBpassword = "newpass";
 
+        // Check number of users
 
-        int users ;
-        users = 0;
 
         try (Connection connection = DriverManager.getConnection(URL,username,DBpassword))
         {
