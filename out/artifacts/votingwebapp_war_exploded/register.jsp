@@ -1,56 +1,78 @@
 <%--
 
-
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="reg_sign.css" rel="stylesheet">
+    <title>Register</title>
 
-        form {
-            margin: 20px;
-            max-width: 400px;
-            padding: 20px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-
-        h2 {
-            color: #333;
-            text-align: center;
-            margin-bottom: 20px;
-        }
-
-        label {
-            display: block;
-            margin-bottom: 5px;
-        }
-
-        input[type="text"] {
-            width: 100%;
-            padding: 8px;
-            border-radius: 3px;
-            border: 1px solid #ccc;
-        }
-
-        button[type="submit"] {
-            background-color: #333;
-            color: #fff;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 3px;
-            cursor: pointer;
-        }
-    </style>
 </head>
 <body>
-<form action="/register" method="post">
+
+<div class="container">
+    <div class="login__content">
+
+        <img src="black_hand.jpeg" alt="login image" class="login__img">
+
+        <form action="/signin" method="post" class="login__form">
+            <div>
+                <h1 class="login__title">
+                    <span>Welcome</span> Back
+                </h1>
+                <p class="login__description">
+                    Welcome! Please login to continue
+                </p>
+            </div>
+
+            <div>
+                <div class="login__inputs">
+
+                    <div>
+                        <label for="" class="login__label">Name</label>
+                        <input type="text" placeholder="Enter your name" required class="login__input">
+                    </div>
+
+                    <div>
+                        <label for="" class="login__label">Surname</label>
+                        <input type="email" placeholder="Enter your surname" required class="login__input">
+                    </div>
+
+                    <div>
+                        <label for="" class="login__label">ID number</label>
+                        <input type="email" placeholder="Enter your ID" required class="login__input">
+                    </div>
+
+                    <div>
+                        <label for="" class="login__label">Email</label>
+                        <input type="email" placeholder="Enter your email address" required class="login__input">
+                    </div>
+
+                    <div>
+                        <label for="" class="login__label">Password</label>
+
+                        <div class="login__box">
+                            <input type="password" placeholder="Enter your password" required class="login__input" id="input-pass">
+                            <i class="ri-eye-off-line login__eye" id="input-icon"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div>
+                <div class="login__buttons">
+                    <button class="login__button">Log In</button>
+
+                </div>
+            </div>
+
+        </form>
+
+<!--<form action="/register" method="post">
     <h2>Welcome</h2>
     <label for="name">Name:</label>
     <input type="text" id="name" name="regname" required><br>
@@ -69,6 +91,6 @@
 
     <button type="submit" name="registerButton">Register</button>
 
-</form>
+</form> -->
 </body>
 </html>

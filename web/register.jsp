@@ -1,6 +1,5 @@
 <%--
 
-
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
@@ -13,25 +12,66 @@
 
 </head>
 <body>
-<form action="/register" method="post">
-    <h2>Welcome</h2>
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="regname" required><br>
 
-    <label for="surname">Surname:</label>
-    <input type="text" id="surname" name="regsurnname" required><br>
+<div class="container">
+    <div class="login__content">
 
-    <label for="idnumber">ID Number:</label>
-    <input type="text" id="idnumber" name="regidnumber" required><br>
+        <img src="black_hand.jpeg" alt="login image" class="login__img">
 
-    <label for="email">Email:</label>
-    <input type="text" id="email" name="regemail">
+        <div action="/register" method="post" class="login__form">
+            <div>
+                <h1 class="login__title">
+                    <span>Welcome</span> Back
+                </h1>
+                <p class="login__description">
+                    Welcome! Please login to continue
+                </p>
+            </div>
 
-    <label for="password">Password:</label>
-    <input type="text" id="password" name="regpassword" required><br>
+            <div>
+                <div class="login__inputs">
 
-    <button type="submit" name="registerButton">Register</button>
+                    <div>
+                        <label for="" class="login__label">Name</label>
+                        <input type="text" placeholder="Enter your name" required class="login__input">
+                    </div>
 
-</form>
+                    <div>
+                        <label for="" class="login__label">Surname</label>
+                        <input type="email" placeholder="Enter your surname" required class="login__input">
+                    </div>
+
+                    <div>
+                        <label for="" class="login__label">ID number</label>
+                        <input type="email" placeholder="Enter your ID" required class="login__input">
+                    </div>
+
+                    <div>
+                        <label for="" class="login__label">Email</label>
+                        <input type="email" placeholder="Enter your email address" required class="login__input">
+                    </div>
+
+                    <div>
+                        <label for="" class="login__label">Password</label>
+
+                        <div class="login__box">
+                            <input type="password" placeholder="Enter your password" required class="login__input" id="input-pass">
+                            <i class="ri-eye-off-line login__eye" id="input-icon"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div>
+                <div class="login__buttons">
+                    <button class="login__button">Log In</button>
+
+                </div>
+            </div>
+        </div>
+        </form>
+    </div>
+</div>
 </body>
 </html>
