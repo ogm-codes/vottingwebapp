@@ -14,7 +14,7 @@
 <div class="container">
 <div class="login__content">
 
-    <!--<img src="black_hand.jpeg" alt="login image" class="login__img"> -->
+    <img src="black_hand.jpeg" alt="login image" class="login__img">
 
     <form action="/signin" method="post" class="login__form">
         <div>
