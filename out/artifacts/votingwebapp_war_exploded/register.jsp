@@ -12,13 +12,12 @@
 
 </head>
 <body>
-
 <div class="container">
     <div class="login__content">
 
         <img src="black_hand.jpeg" alt="login image" class="login__img">
 
-        <form action="/signin" method="post" class="login__form">
+        <div action="/register" method="post" class="login__form">
             <div>
                 <h1 class="login__title">
                     <span>Welcome</span> Back
@@ -65,32 +64,17 @@
 
             <div>
                 <div class="login__buttons">
-                    <button class="login__button">Log In</button>
+                    <button class="login__button">Register</button>
 
                 </div>
             </div>
-
+        </div>
         </form>
+    </div>
+</div>
 
-<!--<form action="/register" method="post">
-    <h2>Welcome</h2>
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="regname" required><br>
-
-    <label for="surname">Surname:</label>
-    <input type="text" id="surname" name="regsurnname" required><br>
-
-    <label for="idnumber">ID Number:</label>
-    <input type="text" id="idnumber" name="regidnumber" required><br>
-
-    <label for="email">Email:</label>
-    <input type="text" id="email" name="regemail">
-
-    <label for="password">Password:</label>
-    <input type="text" id="password" name="regpassword" required><br>
-
-    <button type="submit" name="registerButton">Register</button>
-
-</form> -->
+<script>
+    const
+</script>
 </body>
 </html>

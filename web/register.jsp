@@ -64,7 +64,7 @@
 
             <div>
                 <div class="login__buttons">
-                    <button class="login__button">Registe</button>
+                    <button class="login__button">Register</button>
 
                 </div>
             </div>

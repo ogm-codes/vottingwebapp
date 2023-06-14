@@ -20,7 +20,8 @@ public class RegistrationServlet extends HttpServlet {
         String DBpassword = "newpass";
 
         // Check number of users
-
+        int users;
+        users = 0;
 
         try (Connection connection = DriverManager.getConnection(URL,username,DBpassword))
         {

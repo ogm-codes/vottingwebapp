@@ -34,7 +34,7 @@
                 </div>
 
                 <div>
-                    <label for="" class="login__label">Password</label>
+                    <label for="input-pass" class="login__label">Password</label>
 
                     <div class="login__box">
                         <input type="password" placeholder="Enter your password" required class="login__input" id="input-pass">

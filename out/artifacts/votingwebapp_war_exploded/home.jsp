@@ -33,54 +33,7 @@
 </header>
 <!-- End Header -->
 
-<!-- Sidebar -->
-<aside id="sidebar">
-    <div class="sidebar-title">
-        <div class="sidebar-brand">
-            <span class="material-icons-outlined"></span> Voting System
-        </div>
-        <span class="material-icons-outlined" onclick="closeSidebar()">close</span>
-    </div>
 
-    <ul class="sidebar-list">
-        <li class="sidebar-list-item">
-            <a href="#" target="_blank">
-                <span class="material-icons-outlined">dashboard</span> Dashboard
-            </a>
-        </li>
-        <li class="sidebar-list-item">
-            <a href="#" target="_blank">
-                <span class="material-icons-outlined">inventory_2</span> Products
-            </a>
-        </li>
-        <li class="sidebar-list-item">
-            <a href="#" target="_blank">
-                <span class="material-icons-outlined">fact_check</span> Inventory
-            </a>
-        </li>
-        <li class="sidebar-list-item">
-            <a href="#" target="_blank">
-                <span class="material-icons-outlined">add_shopping_cart</span> Purchase Orders
-            </a>
-        </li>
-        <li class="sidebar-list-item">
-            <a href="#" target="_blank">
-                <span class="material-icons-outlined">shopping_cart</span> Sales Orders
-            </a>
-        </li>
-        <li class="sidebar-list-item">
-            <a href="#" target="_blank">
-                <span class="material-icons-outlined">poll</span> Reports
-            </a>
-        </li>
-        <li class="sidebar-list-item">
-            <a href="#" target="_blank">
-                <span class="material-icons-outlined">settings</span> Settings
-            </a>
-        </li>
-    </ul>
-</aside>
-<!-- End Sidebar -->
 
 <!-- Main -->
 <main class="main-container">
@@ -92,7 +45,7 @@
 
         <div class="card">
             <div class="card-inner">
-                <p class="text-primary">PRODUCTS</p>
+                <p class="text-primary">National Government</p>
                 <span class="material-icons-outlined text-blue">inventory_2</span>
             </div>
             <span class="text-primary font-weight-bold">249</span>
@@ -100,7 +53,7 @@
 
         <div class="card">
             <div class="card-inner">
-                <p class="text-primary">PURCHASE ORDERS</p>
+                <p class="text-primary">Provincial Government</p>
                 <span class="material-icons-outlined text-orange">add_shopping_cart</span>
             </div>
             <span class="text-primary font-weight-bold">83</span>
@@ -108,19 +61,12 @@
 
         <div class="card">
             <div class="card-inner">
-                <p class="text-primary">SALES ORDERS</p>
+                <p class="text-primary">Local Goverment</p>
                 <span class="material-icons-outlined text-green">shopping_cart</span>
             </div>
             <span class="text-primary font-weight-bold">79</span>
         </div>
 
-        <div class="card">
-            <div class="card-inner">
-                <p class="text-primary">INVENTORY ALERTS</p>
-                <span class="material-icons-outlined text-red">notification_important</span>
-            </div>
-            <span class="text-primary font-weight-bold">56</span>
-        </div>
 
     </div>
 
