@@ -5,20 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="reg_sign.css" rel="stylesheet">
 
     <title>Sign In</title>
 
 </head>
 <body>
 <div class="container">
-<div class="login_content">
-    <img src="">
-    <form action="/signin" method="post">
+<div class="login__content">
+
+    <!--<img src="black_hand.jpeg" alt="login image" class="login__img"> -->
+
+    <form action="/signin" method="post" class="login__form">
         <div>
-            <h1 class="login_title">
+            <h1 class="login__title">
                 <span>Welcome</span> Back
             </h1>
-            <p class="login_description">
+            <p class="login__description">
                 Welcome! Please login to continue
             </p>
         </div>
