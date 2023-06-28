@@ -8,7 +8,8 @@ import java.io.PrintWriter;
 
 @WebServlet(name = "VotingServlet")
 public class VotingServlet extends HttpServlet {
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
+    {
 
     }
 

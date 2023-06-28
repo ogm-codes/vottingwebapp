@@ -49,26 +49,13 @@
                     <span class="material-icons-outlined">dashboard</span> Dashboard
                 </a>
             </li>
-            <li class="sidebar-list-item">
-                <a href="#">
-                    <span class="material-icons-outlined">leaderboard</span> Leaderboard
-                </a>
-            </li>
-            <li class="sidebar-list-item">
-                <a href="#">
-                    <span class="material-icons-outlined">forum</span> Forum
-                </a>
-            </li>
+
             <li class="sidebar-list-item">
                 <a href="#">
                     <span class="material-icons-outlined">phone</span> Support
                 </a>
             </li>
-            <li class="sidebar-list-item">
-                <a href="#">
-                    <span class="material-icons-outlined">email</span> Messages
-                </a>
-            </li>
+
             <li class="sidebar-list-item">
                 <a href="#">
                     <span class="material-icons-outlined">poll</span> Reports

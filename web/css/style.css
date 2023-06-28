@@ -89,7 +89,7 @@ img {
 #hero-page {
     height: 400px;
     background-color: #f9f9f9;
-    background-image: url("ballot_box.jpeg");
+    background-image: url("../ballot_box.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;

@@ -8,7 +8,7 @@
   <head>
     <title>Welcome</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
-      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
   <header>
