@@ -1,6 +1,5 @@
 <%--
-  Created by IntelliJ IDEA.
-  User: rati
+
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
@@ -9,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
     <!-- Material Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
     <link rel="stylesheet" href="dashboard.css">
 
@@ -19,79 +19,117 @@
 
 <!-- Header -->
 <header class="header">
-    <div class="menu-icon" onclick="openSidebar()">
-        <span class="material-icons-outlined">menu</span>
-    </div>
+
     <div class="header-left">
         <span class="material-icons-outlined">search</span>
     </div>
     <div class="header-right">
         <span class="material-icons-outlined">notifications</span>
-        <span class="material-icons-outlined">email</span>
+        
         <span class="material-icons-outlined">account_circle</span>
     </div>
 </header>
 <!-- End Header -->
 
-
-
 <!-- Main -->
-<main class="main-container">
-    <div class="main-title">
-        <p class="font-weight-bold">DASHBOARD</p>
-    </div>
+    <main class="main-container">
+        <div class="main-title">
+            <h2>DASHBOARD</h2>
+        </div>
 
-    <div class="main-cards">
+        <div class="main-cards">
 
-        <div class="card">
-            <div class="card-inner">
-                <p class="text-primary">National Government</p>
-                <span class="material-icons-outlined text-blue">inventory_2</span>
+            <div class="card">
+                <div class="card-inner">
+                    <h2>LIKES</h2>
+                    <span class="material-icons-outlined">thumb_up</span>
+                </div>
+                <h1>4,021</h1>
             </div>
-            <span class="text-primary font-weight-bold">249</span>
-        </div>
 
-        <div class="card">
-            <div class="card-inner">
-                <p class="text-primary">Provincial Government</p>
-                <span class="material-icons-outlined text-orange">add_shopping_cart</span>
+            <div class="card">
+                <div class="card-inner">
+                    <h2>SUBSCRIBERS</h2>
+                    <span class="material-icons-outlined">subscriptions</span>
+                </div>
+                <h1>8,731</h1>
             </div>
-            <span class="text-primary font-weight-bold">83</span>
-        </div>
 
-        <div class="card">
-            <div class="card-inner">
-                <p class="text-primary">Local Goverment</p>
-                <span class="material-icons-outlined text-green">shopping_cart</span>
+            <div class="card">
+                <div class="card-inner">
+                    <h2>FOLLOWERS</h2>
+                    <span class="material-icons-outlined">groups</span>
+                </div>
+                <h1>3,841</h1>
             </div>
-            <span class="text-primary font-weight-bold">79</span>
+
+            <div class="card">
+                <div class="card-inner">
+                    <h2>MESSAGES</h2>
+                    <span class="material-icons-outlined">forum</span>
+                </div>
+                <h1>1,962</h1>
+            </div>
+
         </div>
 
+        <div class="products">
 
-    </div>
+            <div class="product-card">
+                <h2 class="product-description">Latest Updates</h2>
+                <p class="text-secondary">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet facilisis nulla, consectetur pulvinar diam. Aliquam tempus vel quam.
+                </p>
+                <button type="button" class="product-button">
+                    <span class="material-icons-outlined">add</span>
+                </button>
+            </div>
 
-    <div class="charts">
+            <div class="social-media">
+                <div class="product">
 
-        <div class="charts-card">
-            <p class="chart-title">Voter statistics</p>
-            <div id="bar-chart"></div>
+                    <div>
+                        <div class="product-icon background-red">
+                            <i class="bi bi-twitter"></i>
+                        </div>
+                        <h1 class="text-red">+274</h1>
+                        <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+
+                    <div>
+                        <div class="product-icon background-green">
+                            <i class="bi bi-instagram"></i>
+                        </div>
+                        <h1 class="text-green">+352</h1>
+                        <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+
+                    <div>
+                        <div class="product-icon background-orange">
+                            <i class="bi bi-facebook"></i>
+                        </div>
+                        <h1 class="text-orange">-126</h1>
+                        <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+
+                    <div>
+                        <div class="product-icon background-blue">
+                            <i class="bi bi-linkedin"></i>
+                        </div>
+                        <h1 class="text-blue">+102</h1>
+                        <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+
+                </div>
+            </div>
+
         </div>
+    </main>
 
-        <div class="charts-card">
-            <p class="chart-title">Poll statistics</p>
-            <div id="area-chart"></div>
-        </div>
 
-    </div>
-</main>
-<!-- End Main -->
 
-</div>
 
-<!-- Scripts -->
-<!-- ApexCharts -->
-<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
-<!-- Custom JS -->
-<script src="scripts.js"></script>
+
+<script src="js/scripts.js"></script>
 </body>
 </html>

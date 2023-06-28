@@ -2,38 +2,51 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #e6e8ed;
-    color: #666666;
-    font-family: "Montserrat", sans-serif;
+    background-color: rgb(247, 246, 252);
+    color: rgb(70, 71, 81);
+    font-family: "Open Sans", sans-serif;
 }
 
 .material-icons-outlined {
     vertical-align: middle;
     line-height: 1px;
+    font-size: 30px;
 }
 
-.text-primary {
-    color: #666666;
+.text-secondary {
+    color: rgb(70, 71, 81);
 }
 
 .text-blue {
-    color: #246dec;
+    color: rgb(29, 38, 154);
+}
+
+.background-blue {
+    background-color: rgb(29, 38, 154);
 }
 
 .text-red {
-    color: #cc3c43;
+    color: rgb(213, 0, 0);
+}
+
+.background-red {
+    background-color: rgb(213, 0, 0);
 }
 
 .text-green {
-    color: #367952;
+    color: rgb(46, 125, 50);
+}
+
+.background-green {
+    background-color: rgb(46, 125, 50);
 }
 
 .text-orange {
-    color: #f5b74f;
+    color: rgb(255, 111, 0);
 }
 
-.font-weight-bold {
-    font-weight: 600;
+.background-orange {
+    background-color: rgb(255, 111, 0);
 }
 
 .grid-container {
@@ -52,7 +65,6 @@ body {
 .header {
     grid-area: header;
     height: 70px;
-    background-color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -63,70 +75,6 @@ body {
 .menu-icon {
     display: none;
 }
-
-
-/* ---------- SIDEBAR ---------- */
-
-#sidebar {
-    grid-area: sidebar;
-    height: 100%;
-    background-color: #21232d;
-    color: #9799ab;
-    overflow-y: auto;
-    transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-}
-
-.sidebar-title {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 20px 20px 20px;
-    margin-bottom: 30px;
-}
-
-.sidebar-title > span {
-    display: none;
-}
-
-.sidebar-brand {
-    margin-top: 15px;
-    font-size: 20px;
-    font-weight: 700;
-}
-
-.sidebar-list {
-    padding: 0;
-    margin-top: 15px;
-    list-style-type: none;
-}
-
-.sidebar-list-item {
-    padding: 20px 20px 20px 20px;
-}
-
-.sidebar-list-item:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    cursor: pointer;
-}
-
-.sidebar-list-item > a {
-    text-decoration: none;
-    color: #9799ab;
-}
-
-.sidebar-responsive {
-    display: inline !important;
-    position: absolute;
-    /*
-      the z-index of the ApexCharts is 11
-      we want the z-index of the sidebar higher so that
-      the charts are not showing over the sidebar
-      on small screens
-    */
-    z-index: 12 !important;
-}
-
 
 /* ---------- MAIN ---------- */
 
@@ -141,10 +89,6 @@ body {
     justify-content: space-between;
 }
 
-.main-title > p {
-    font-size: 20px;
-}
-
 .main-cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -157,32 +101,25 @@ body {
     flex-direction: column;
     justify-content: space-around;
     padding: 25px;
-    background-color: #ffffff;
-    box-sizing: border-box;
-    border: 1px solid #d2d2d3;
-    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
     box-shadow: 0 6px 7px -4px rgba(0, 0, 0, 0.2);
 }
 
 .card:first-child {
-    border-left: 7px solid #246dec;
+    background-color: rgb(213, 0, 0);
 }
 
 .card:nth-child(2) {
-    border-left: 7px solid #f5b74f;
+    background-color: rgb(46, 125, 50);
 }
 
 .card:nth-child(3) {
-    border-left: 7px solid #367952;
+    background-color: rgb(255, 111, 0);
 }
 
 .card:nth-child(4) {
-    border-left: 7px solid #cc3c43;
-}
-
-.card > span {
-    font-size: 20px;
-    font-weight: 600;
+    background-color: rgb(29, 38, 154);
 }
 
 .card-inner {
@@ -191,59 +128,62 @@ body {
     justify-content: space-between;
 }
 
-.card-inner > p {
-    font-size: 18px;
-}
-
 .card-inner > span {
-    font-size: 35px;
+    font-size: 50px;
 }
 
-.charts {
+.products {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
 
-.charts-card {
-    background-color: #ffffff;
-    margin-bottom: 20px;
+.product-card {
+    height: 350px;
+    background-color: rgb(255, 255, 255);
     padding: 25px;
-    box-sizing: border-box;
-    -webkit-column-break-inside: avoid;
-    border: 1px solid #d2d2d3;
-    border-radius: 5px;
+    border-radius: 30px;
     box-shadow: 0 6px 7px -4px rgba(0, 0, 0, 0.2);
 }
 
-.chart-title {
+.product-description {
+    padding-top: 50px;
+}
+
+.product-button {
+    background-color: rgb(29, 38, 154);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.product-button > .material-icons-outlined {
+    font-size: 50px;
+}
+
+.social-media {
+    height: 350px;
+    padding: 10px;
+}
+
+.product {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.product-icon {
+    color: rgb(255, 255, 255);
+    width: 48px;
+    height: 48px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 22px;
-    font-weight: 600;
+    border-radius: 20px;
 }
 
-
-/* ---------- SCROLLBARS ---------- */
-
-::-webkit-scrollbar {
-    width: 5px;
-    height: 6px;
-}
-
-::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px #a5aaad;
-    border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: #4f35a1;
-    border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background-color: #a5aaad;
+.product-icon > .bi {
+    font-size: 25px;
 }
 
 
@@ -281,7 +221,7 @@ body {
         margin-bottom: 0;
     }
 
-    .charts {
+    .products {
         grid-template-columns: 1fr;
         margin-top: 30px;
     }
