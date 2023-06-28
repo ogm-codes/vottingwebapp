@@ -76,6 +76,68 @@ body {
     display: none;
 }
 
+
+/* ---------- SIDEBAR ---------- */
+
+#sidebar {
+    grid-area: sidebar;
+    height: 100%;
+    background-color: rgb(29, 38, 154);
+    color: rgb(255, 255, 255);
+    overflow-y: auto;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.sidebar-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 30px;
+}
+
+.sidebar-title > span {
+    display: none;
+}
+
+.sidebar-brand {
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.sidebar-brand > .material-icons-outlined {
+    font-size: 50px;
+}
+
+.sidebar-list {
+    padding: 0;
+    margin-top: 15px;
+    list-style-type: none;
+}
+
+.sidebar-list-item {
+    padding: 20px 20px 20px 20px;
+    font-size: 18px;
+}
+
+.sidebar-list-item:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+
+.sidebar-list-item > a {
+    text-decoration: none;
+    color: rgb(180, 184, 244);
+}
+
+.sidebar-responsive {
+    display: inline !important;
+    position: absolute;
+}
+
+
 /* ---------- MAIN ---------- */
 
 .main-container {

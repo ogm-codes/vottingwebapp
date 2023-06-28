@@ -19,7 +19,9 @@
 
 <!-- Header -->
 <header class="header">
-
+    <div class="menu-icon" onclick="openSidebar()">
+        <span class="material-icons-outlined">menu</span>
+    </div>
     <div class="header-left">
         <span class="material-icons-outlined">search</span>
     </div>
@@ -32,6 +34,43 @@
 <!-- End Header -->
 
 <!-- Main -->
+    <!-- Sidebar -->
+    <aside id="sidebar">
+        <div class="sidebar-title">
+            <div class="sidebar-brand">
+                <span class="material-icons-outlined">mood</span> LOGO
+            </div>
+            <span class="material-icons-outlined" onclick="closeSidebar()">close</span>
+        </div>
+
+        <ul class="sidebar-list">
+            <li class="sidebar-list-item">
+                <a href="#">
+                    <span class="material-icons-outlined">dashboard</span> Dashboard
+                </a>
+            </li>
+
+            <li class="sidebar-list-item">
+                <a href="#">
+                    <span class="material-icons-outlined">phone</span> Support
+                </a>
+            </li>
+
+            <li class="sidebar-list-item">
+                <a href="#">
+                    <span class="material-icons-outlined">poll</span> Reports
+                </a>
+            </li>
+            <li class="sidebar-list-item">
+                <a href="#">
+                    <span class="material-icons-outlined">settings</span> Settings
+                </a>
+            </li>
+        </ul>
+    </aside>
+    <!-- End Sidebar -->
+
+    <!-- Main -->
     <main class="main-container">
         <div class="main-title">
             <h2>DASHBOARD</h2>
@@ -57,7 +96,7 @@
 
             <div class="card">
                 <div class="card-inner">
-                    <h2>FOLLOWERS</h2>
+                    <h2>USERS</h2>
                     <span class="material-icons-outlined">groups</span>
                 </div>
                 <h1>3,841</h1>
@@ -85,12 +124,22 @@
                 </button>
             </div>
 
+            <div class="product-card">
+                <h2 class="product-description">PLACE VOTE</h2>
+                <p class="text-secondary">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet facilisis nulla, consectetur pulvinar diam. Aliquam tempus vel quam.
+                </p>
+                <button type="button" class="product-button">
+                    <span class="material-icons-outlined">add</span>
+                </button>
+            </div>
 
 
         </div>
     </main>
+    <!-- End Main -->
 
-
+</div>
 
 
 

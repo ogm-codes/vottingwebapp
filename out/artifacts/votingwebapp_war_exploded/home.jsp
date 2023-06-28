@@ -19,7 +19,9 @@
 
 <!-- Header -->
 <header class="header">
-
+    <div class="menu-icon" onclick="openSidebar()">
+        <span class="material-icons-outlined">menu</span>
+    </div>
     <div class="header-left">
         <span class="material-icons-outlined">search</span>
     </div>
@@ -32,6 +34,56 @@
 <!-- End Header -->
 
 <!-- Main -->
+    <!-- Sidebar -->
+    <aside id="sidebar">
+        <div class="sidebar-title">
+            <div class="sidebar-brand">
+                <span class="material-icons-outlined">mood</span> LOGO
+            </div>
+            <span class="material-icons-outlined" onclick="closeSidebar()">close</span>
+        </div>
+
+        <ul class="sidebar-list">
+            <li class="sidebar-list-item">
+                <a href="#">
+                    <span class="material-icons-outlined">dashboard</span> Dashboard
+                </a>
+            </li>
+            <li class="sidebar-list-item">
+                <a href="#">
+                    <span class="material-icons-outlined">leaderboard</span> Leaderboard
+                </a>
+            </li>
+            <li class="sidebar-list-item">
+                <a href="#">
+                    <span class="material-icons-outlined">forum</span> Forum
+                </a>
+            </li>
+            <li class="sidebar-list-item">
+                <a href="#">
+                    <span class="material-icons-outlined">phone</span> Support
+                </a>
+            </li>
+            <li class="sidebar-list-item">
+                <a href="#">
+                    <span class="material-icons-outlined">email</span> Messages
+                </a>
+            </li>
+            <li class="sidebar-list-item">
+                <a href="#">
+                    <span class="material-icons-outlined">poll</span> Reports
+                </a>
+            </li>
+            <li class="sidebar-list-item">
+                <a href="#">
+                    <span class="material-icons-outlined">settings</span> Settings
+                </a>
+            </li>
+        </ul>
+    </aside>
+    <!-- End Sidebar -->
+
+    <!-- Main -->
     <main class="main-container">
         <div class="main-title">
             <h2>DASHBOARD</h2>
@@ -57,7 +109,7 @@
 
             <div class="card">
                 <div class="card-inner">
-                    <h2>FOLLOWERS</h2>
+                    <h2>USERS</h2>
                     <span class="material-icons-outlined">groups</span>
                 </div>
                 <h1>3,841</h1>
@@ -85,48 +137,22 @@
                 </button>
             </div>
 
-            <div class="social-media">
-                <div class="product">
-
-                    <div>
-                        <div class="product-icon background-red">
-                            <i class="bi bi-twitter"></i>
-                        </div>
-                        <h1 class="text-red">+274</h1>
-                        <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-
-                    <div>
-                        <div class="product-icon background-green">
-                            <i class="bi bi-instagram"></i>
-                        </div>
-                        <h1 class="text-green">+352</h1>
-                        <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-
-                    <div>
-                        <div class="product-icon background-orange">
-                            <i class="bi bi-facebook"></i>
-                        </div>
-                        <h1 class="text-orange">-126</h1>
-                        <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-
-                    <div>
-                        <div class="product-icon background-blue">
-                            <i class="bi bi-linkedin"></i>
-                        </div>
-                        <h1 class="text-blue">+102</h1>
-                        <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-
-                </div>
+            <div class="product-card">
+                <h2 class="product-description">PLACE VOTE</h2>
+                <p class="text-secondary">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet facilisis nulla, consectetur pulvinar diam. Aliquam tempus vel quam.
+                </p>
+                <button type="button" class="product-button">
+                    <span class="material-icons-outlined">add</span>
+                </button>
             </div>
+
 
         </div>
     </main>
+    <!-- End Main -->
 
-
+</div>
 
 
 
