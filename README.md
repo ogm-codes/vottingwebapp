@@ -31,11 +31,6 @@ It should also be responsive, adapting its layout and functionality to different
 - [Contributing](#contributing)
 - [License](#license)
 
-## Features
-- [Feature 1]: Description of the first feature.
-- [Feature 2]: Description of the second feature.
-- [Feature 3]: Description of the third feature.
-- ...
 
 ## Installation
 1. Clone the repository: `git clone [repository URL]`
