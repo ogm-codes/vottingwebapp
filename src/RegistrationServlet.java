@@ -6,7 +6,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.sql.*;
 
-@WebServlet(name = "RegistrationServlet", urlPatterns = {"/register", "/register.jsp"})
+@WebServlet(name = "RegistrationServlet", urlPatterns = {"/register", "/register.html"})
 public class RegistrationServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String name = request.getParameter("regname");
@@ -35,7 +35,7 @@ public class RegistrationServlet extends HttpServlet {
             statement.setString(6,password);
             statement.executeUpdate();
 
-            response.sendRedirect("home.jsp");
+            response.sendRedirect("home.html");
         } catch (SQLException e)
         {
             e.printStackTrace();

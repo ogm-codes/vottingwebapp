@@ -22,5 +22,14 @@
         <url-pattern>/signin</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>VotingServlet</servlet-name>
+        <servlet-class>VotingServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>VotingServlet</servlet-name>
+        <url-pattern>/vote</url-pattern>
+    </servlet-mapping>
+
 
 </web-app>

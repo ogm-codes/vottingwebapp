@@ -10,7 +10,7 @@
     <!-- Material Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
-    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="css/dashboard.css">
 
 </head>
 <body>
@@ -126,9 +126,16 @@
 
             <div class="product-card">
                 <h2 class="product-description">PLACE VOTE</h2>
-                <p class="text-secondary">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet facilisis nulla, consectetur pulvinar diam. Aliquam tempus vel quam.
-                </p>
+                <div class="text-secondary">
+                    <input type="radio" id="ancRadio" name="party" value="ANC">
+                    <label for="ancRadio">ANC</label>
+                    <br>
+                    <input type="radio" id="effRadio" name="party" value="EFF">
+                    <label for="effRadio">EFF</label>
+                    <br>
+                    <input type="radio" id="daRadio" name="party" value="DA">
+                    <label for="daRadio">DA</label>
+                </div>
                 <button type="button" class="product-button">
                     <span class="material-icons-outlined">add</span>
                 </button>
@@ -144,5 +151,6 @@
 
 
 <script src="js/scripts.js"></script>
+<script src="js/sendvote.js"></script>
 </body>
 </html>

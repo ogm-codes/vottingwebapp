@@ -6,12 +6,13 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.sql.*;
 
-@WebServlet(name = "SignInServlet", urlPatterns = {"/signin", "signin.jsp"})
+@WebServlet(name = "SignInServlet", urlPatterns = {"/signin", "signin.html"})
 public class SignInServlet extends HttpServlet
 {
     private static final long serialVersionUID = 1L;
 
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
+    {
         String id = request.getParameter("idnumber");
         String password = request.getParameter("password");
 
@@ -19,11 +20,11 @@ public class SignInServlet extends HttpServlet
 
         if (authenticated)
         {
-            response.sendRedirect("home.jsp");
+            response.sendRedirect("home.html");
         }
         else
         {
-            response.sendRedirect("signin.jsp?error=1");
+            response.sendRedirect("signin.html?error=1");
         }
 
     }
@@ -33,12 +34,11 @@ public class SignInServlet extends HttpServlet
         String url = "jdbc:mysql://localhost:3306/myDb";
         String username = "root";
         String password = "newpass";
-        // String DRIVER_NAME = "com.mysql.jdbc.Driver";
+
         try (Connection connection = DriverManager.getConnection(url,username, password))
         {
             String sqlQuery = "SELECT * FROM voters WHERE user_idnumber = ? AND user_password = ?";
             PreparedStatement statement = connection.prepareStatement(sqlQuery);
-
 
             statement.setString(1,userID);
             statement.setString(2,userPassword);
@@ -49,8 +49,6 @@ public class SignInServlet extends HttpServlet
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
         return false;
     }
-
 }

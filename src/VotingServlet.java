@@ -6,14 +6,16 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet(name = "VotingServlet")
+@WebServlet(name = "VotingServlet", urlPatterns = "/vote")
 public class VotingServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
     {
 
     }
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
+    {
+        // code to implement vote
 
     }
 }
